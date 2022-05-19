@@ -22,10 +22,27 @@ export class InicioPage implements OnInit {
       redirectTo:'/action-sheet'
     },
     {
-      icon: 'logo-apple',
+      icon: 'alert-circle-outline',
       name:'Alert',
       redirectTo:'/alert'
+    },
+    {
+      icon:'beaker-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar'
+    },
+    {
+      icon:'radio-button-off-outline',
+      name: 'Botones',
+      redirectTo: '/botones'
+    },
+    {
+      icon:'id-card-outline',
+      name: 'Card',
+      redirectTo: '/cards'
     }
+
+    
   ];
 
   constructor() { }
