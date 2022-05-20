@@ -40,6 +40,21 @@ export class InicioPage implements OnInit {
       icon:'id-card-outline',
       name: 'Card',
       redirectTo: '/cards'
+    },
+    {
+      icon:'checkmark-done-circle-outline',
+      name: 'Checkbox',
+      redirectTo: '/checkbox'
+    },
+    {
+      icon:'calendar-outline',
+      name: 'Date time',
+      redirectTo: '/datetime'
+    },
+    {
+      icon:'calendar-outline',
+      name: 'Ion fab',
+      redirectTo: '/ion-fab'
     }
 
     
