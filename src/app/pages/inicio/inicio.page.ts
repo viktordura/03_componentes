@@ -55,6 +55,16 @@ export class InicioPage implements OnInit {
       icon:'calendar-outline',
       name: 'Ion fab',
       redirectTo: '/ion-fab'
+    },
+    {
+      icon:'grid-outline',
+      name: 'Grid',
+      redirectTo: '/grid'
+    },
+    {
+      icon:'infinite-outline',
+      name: 'Infinite',
+      redirectTo: '/infinite'
     }
 
     

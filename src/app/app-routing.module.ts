@@ -41,6 +41,14 @@ const routes: Routes = [
   {
     path: 'ion-fab',
     loadChildren: () => import('./pages/ion-fab/ion-fab.module').then( m => m.IonFabPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'infinite',
+    loadChildren: () => import('./pages/infinite/infinite.module').then( m => m.InfinitePageModule)
   }
 
 ];

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IonFabPage implements OnInit {
 
+  data = Array(100);
+
   constructor() { }
 
   ngOnInit() {
