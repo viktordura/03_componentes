@@ -27,7 +27,7 @@ export class AppComponent {
   initializeApp(){
     this.platform.ready().then(() => {
       console.log('Ready')
-      this.componentes =  this.dataService.getMenuOpts();
+      this.componentes =  this.dataService.getDataOpts('/assets/data/menu-opts.json');
     });
     
   }
